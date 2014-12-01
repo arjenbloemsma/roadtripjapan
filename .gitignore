@@ -1,0 +1,6 @@
+# Folders to ignore
+logs
+node_modules
+.settings # VS Monaco settings folder
+
+# Files to ignore

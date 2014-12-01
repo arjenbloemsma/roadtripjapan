@@ -1,0 +1,3 @@
+function Loud() {
+	return "LOUD!";
+}
