@@ -1,0 +1,13 @@
+.boven {
+  color: orange;
+  background-color: purple; }
+
+body {
+  background-color: fuchsia;
+  padding: 5pt;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg); }
+
+.ninja {
+  background-color: #000
+  /*apearance: button;*/ }

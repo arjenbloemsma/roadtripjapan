@@ -5,7 +5,7 @@ module.exports = {
 	multiple_files: {
 		expand: true,
 		flatten: true,
-		src: '<%= dirs.output %>/style/global.css',
-		dest: '<%= dirs.output %>/style/global.p.css'
+		src: '<%= dirs.output %>/style/*',
+		dest: '<%= dirs.output %>/style/'
 	}
 }
