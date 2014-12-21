@@ -44,5 +44,5 @@ module.exports = function(grunt) {
 	// TASKS =====================================/
 	// Default Task is basically a rebuild
 	// ToDo; check imagemin for optimizing images
-	grunt.registerTask('default', ['clean', 'typescript', 'sass', 'concat', 'uglify', 'autoprefixer', 'cssmin']);
+	grunt.registerTask('default', ['clean', 'typescript', 'sass', 'concat', 'jshint', 'csslint', 'uglify', 'autoprefixer', 'cssmin']);
 };

@@ -1,11 +1,16 @@
 .boven {
   color: orange;
-  background-color: purple; }
+  background-color: purple;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 body {
   background-color: fuchsia;
   padding: 5pt;
   -webkit-transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
           transform: rotate(7deg); }
 
 .ninja {
